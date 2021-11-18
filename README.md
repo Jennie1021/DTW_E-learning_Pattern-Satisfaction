@@ -4,6 +4,6 @@
 
 ![result](./img/clusters.png)
 
-![result_1](./img/course_sat_1.png)
+![result_1](./img/course_sat_1.PNG)
 ![result_2](./img/course_sat_2.png)
 
