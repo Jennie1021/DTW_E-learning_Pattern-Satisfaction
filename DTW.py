@@ -20,7 +20,7 @@ start = time.time()
 # In[21]:
 
 
-df = pd.read_table(r"C:\Users\gupye\OneDrive\바탕 화면\온라인교육_논문\activity_accumulator_std_test(0320) (1).csv", sep = '|' ,encoding = 'UTF8')
+df = pd.read_table("filepath", sep = '|' ,encoding = 'UTF8')
 df = df.drop([938212], axis = 0) # 이상한 데이터 삭제
 
 
@@ -133,5 +133,5 @@ plt.plot(matrix1[1])
 
 
 #결과 저장
-sfe.to_csv(r"C:\Users\gupye\OneDrive\바탕 화면\온라인교육_논문\result.csv", encoding = 'utf8')
+sfe.to_csv("filepath", encoding = 'utf8')
 
